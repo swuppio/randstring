@@ -1,0 +1,21 @@
+{
+    "name": "swuppio/randstring",
+    "description": "Generate random string",
+    "keywords": ["random sting generator", "random sting", "random password"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "swuppio",
+            "email": "swuppio@gmail.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "swuppio\\randstring\\": ""
+        }
+    }
+}
