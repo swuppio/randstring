@@ -30,15 +30,11 @@ The method returns a randomly generated string
 #### Generate a random string using default parameters:
 
 ```php
-use swuppio\randstring\RandString;
-
 echo RandString::gen();
 ```
 
 #### Generate a 10-character long random string using a custom set of characters:
 
 ```php
-use swuppio\randstring\RandString;
-
 echo RandString::gen(10, 'abc123');
 ```
